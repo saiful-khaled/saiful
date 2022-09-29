@@ -13,6 +13,7 @@
 </head>
 <body>
 	<?php
+		echo "This is class 13";
 		$name = $email= $website = $comment = $gender = "";
 		$nameError = $emailError = $websiteError = $commentError = $genderError = "";
 		if($_SERVER["REQUEST_METHOD"] == "POST"){
